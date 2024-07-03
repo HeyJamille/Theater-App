@@ -1,11 +1,11 @@
-interface Movie {
+interface Filmes {
     title: string;
     description: string;
     times: string[];
     image: string;
   }
   
-  export const featuredMovies: Movie[] = [
+  export const filmesDestaque: Filmes[] = [
     {
       title: 'Parasite',
       description: 'All unemployed, Ki-taek and his family take peculiar interest in the wealthy and glamorous Parks.',
@@ -32,7 +32,7 @@ interface Movie {
     }
   ];
   
-  export const comingSoonMovies: Movie[] = [
+  export const filmesEmBreve: Filmes[] = [
     {
       title: 'Knives Out',
       description: 'A detective investigates the death of a patriarch of an eccentric, combative family.',
@@ -47,9 +47,9 @@ interface Movie {
     }
   ];
   
-  export const recentlyWatchedMovies: Movie[] = [
+  export const filmesAssistidosRecentemente: Filmes[] = [
     {
-      title: 'Charlie\'s Angels',
+      title: 'Charlies Angels',
       description: 'When a young systems engineer blows the whistle on a dangerous technology, Charlie\'s Angels are called into action.',
       times: [],
       image: '/path/to/charlies_angels.jpg'
@@ -62,7 +62,7 @@ interface Movie {
     }
   ];
   
-  export const streamOnDemandMovies: Movie[] = [
+  export const filmeSobDemanda: Filmes[] = [
     {
       title: 'Weathering with You',
       description: 'A high-school boy who has run away to Tokyo befriends a girl who appears to be able to change the weather.',
