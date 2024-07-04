@@ -1,5 +1,11 @@
+<<<<<<< HEAD
 import React from 'react';
 import { filmesDestaque } from '../../data.tsx'
+=======
+// Importações necessárias
+import React from 'react';
+import { filmesDestaque } from '../../data'
+>>>>>>> 3a759f385f6c3bb99d87198d8d70cd8820efe691
 import './Header.css'
 
 const Header: React.FC = () => {
