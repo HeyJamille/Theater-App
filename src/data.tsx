@@ -5,7 +5,7 @@ interface Movie {
     image: string;
   }
   
-  export const featuredMovies: Movie[] = [
+  export const filmesDestaque: Movie[] = [
     {
       title: 'Parasite',
       description: 'All unemployed, Ki-taek and his family take peculiar interest in the wealthy and glamorous Parks.',
