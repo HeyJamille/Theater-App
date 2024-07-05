@@ -1,0 +1,50 @@
+header {
+  padding: 16px;
+  background-color: var(--black-color);
+}
+h1 {
+  color: var(--white-color);
+  font-family: var(--font-family);
+  font-weight: 900;
+}
+.filmes-destaque {
+  display: flex;
+  gap: 20px;
+  margin: 10px;
+}
+
+.filme {
+  flex: 0 0 auto;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 222px;
+}
+
+.filme img {
+  width: 222px;
+  height: auto;
+}
+
+.filme-info {
+  color: var(--white-color);
+  font-family: var(--font-family);
+}
+
+.filme-info h2 {
+  font-size: 18px;
+}
+.filme-info p {
+  font-size: 12px;
+}
+
+.showtimes span {
+  display: inline-block;
+  background: #333;
+  color: white;
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 12px;
+  margin-top: 5px;
+  gap: 10px;
+}

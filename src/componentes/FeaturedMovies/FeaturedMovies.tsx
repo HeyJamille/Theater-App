@@ -1,16 +1,16 @@
 import React from 'react';
 import { filmesDestaque } from '../../data'
-import './Header.css'
+import './FeaturedMovies.css'
 
 const Header: React.FC = () => {
   return (
     <header>
       <h1>Featured</h1>
-      <div className="featured-movies">
+      <div className="filmes-destaque">
         {filmesDestaque.map((filme, index) => (
-          <div key={index} className="movie">
+          <div key={index} className="filme">
             <img src={filme.image} alt={filme.title} />
-            <div className="movie-info">
+            <div className="filme-info">
               <h2>{filme.title}</h2>
               <p>{filme.description}</p>
               <div className="showtimes">

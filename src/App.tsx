@@ -1,12 +1,12 @@
 import './App.css'
-import Header from './componentes/Header/Header'
+import FeaturedMovies from './componentes/FeaturedMovies/FeaturedMovies'
 
 function App() {
 
 
   return (
     <>
-    <Header/>
+    <FeaturedMovies/>
     </>
   )
 }
