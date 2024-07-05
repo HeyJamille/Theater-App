@@ -34,6 +34,18 @@ export const filmesDestaque: Movie[] = [
 
 export const filmesEmBreve: Movie[] = [
   {
+    title: 'Midway',
+    description: 'The historic story of the Battle of Midway, told by the leaders and the sailors who fought it.',
+    times: [],
+    image: './images/mindway.png'
+  },
+  {
+    title: 'Frozen II',
+    description: 'Anna, Elsa, Kristoff, Olaf and Sven leave Arendelle to travel to an ancient, autumn-bound forest.',
+    times: ['11:00 AM', '2:00 PM', '4:00 PM'],
+    image: './images/frozen.png'
+  },
+  {
     title: 'Knives Out',
     description: 'A detective investigates the death of a patriarch of an eccentric, combative family.',
     times: [],
