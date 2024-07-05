@@ -5,7 +5,7 @@ import './FeaturedMovies.css'
 const Header: React.FC = () => {
   return (
     <header>
-      <h1>Featured</h1>
+      <h1>Featured Movies</h1>
       <div className="filmes-destaque">
         {filmesDestaque.map((filme, index) => (
           <div key={index} className="filme">
