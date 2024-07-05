@@ -2,7 +2,7 @@ import React from 'react';
 import { filmesDestaque } from '../../data'
 import './FeaturedMovies.css'
 
-const Header: React.FC = () => {
+const FeaturedMovies: React.FC = () => {
   return (
     <header>
       <h1>Featured Movies</h1>
@@ -26,4 +26,4 @@ const Header: React.FC = () => {
   );
 };
 
-export default Header;
+export default FeaturedMovies;

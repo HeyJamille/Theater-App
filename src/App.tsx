@@ -1,5 +1,6 @@
 import './App.css'
-import FeaturedMovies from './componentes/FeaturedMovies/FeaturedMovies'
+import FeaturedMovies from './componentes/FeaturedMovies/FeaturedMovies.tsx'
+import ComingSoon from './componentes/ComingSoon/ComingSoon.tsx'
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
   return (
     <>
     <FeaturedMovies/>
+    <ComingSoon/>
     </>
   )
 }
