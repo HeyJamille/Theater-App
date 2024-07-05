@@ -11,3 +11,6 @@
   --light-gray-color: #444444;
   --font-family: 'Roboto';
 }
+body{
+  background-color: var(--black-color);
+}
