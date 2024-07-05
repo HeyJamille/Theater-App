@@ -1,8 +1,8 @@
-import React from 'react';
+
 import { filmesDestaque } from '../../data'
 import './FeaturedMovies.css'
 
-const FeaturedMovies: React.FC = () => {
+const FeaturedMovies = () => {
   return (
     <header>
       <h1>Featured Movies</h1>
