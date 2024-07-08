@@ -1,15 +1,15 @@
 import './App.css'
-import FeaturedMovies from './componentes/FeaturedMovies/FeaturedMovies.tsx'
-import ComingSoon from './componentes/ComingSoon/ComingSoon.tsx'
+import Destaques from './componentes/Destaques/Destaques.tsx'
+import EmBreve from './componentes/EmBreve/EmBreve.tsx'
+import Recentemente from './componentes/Recentemente/Recentemente.tsx'
 
 function App() {
-
-
   return (
-    <>
-    <FeaturedMovies/>
-    <ComingSoon/>
-    </>
+    <div>
+    <Destaques/>
+    <EmBreve/>
+    <Recentemente/>
+    </div>
   )
 }
 

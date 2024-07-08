@@ -1,8 +1,8 @@
-import style from './ComingSoon.module.css'
+import style from './EmBreve.module.css'
 import { filmesEmBreve } from '../../data'
 
 
-const ComingSoon = () => {
+const EmBreve = () => {
     return(
         <section>
             <h1 className={style.h1}>Coming Soon</h1>
@@ -15,4 +15,4 @@ const ComingSoon = () => {
         </section>
     )
 }
-export default ComingSoon;
+export default EmBreve;

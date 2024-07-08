@@ -1,9 +1,9 @@
 
 import { filmesDestaque } from '../../data'
-import style from './FeaturedMovies.module.css'
+import style from './Destaques.module.css'
 
 
-const FeaturedMovies = () => {
+const Destaques = () => {
   return (
     <header>
       <h1>Featured Movies</h1>
@@ -27,4 +27,4 @@ const FeaturedMovies = () => {
   );
 };
 
-export default FeaturedMovies;
+export default Destaques;
