@@ -1,13 +1,13 @@
-import style from './Recentemente.module.css'
-import { filmesAssistidosRecentemente} from '../../data'
+import style from './Demanda.module.css'
+import { filmesSobDemanda} from '../../data'
 
 
-const Recentemente = () => {
+const Demanda = () => {
     return(
         <section>
             <h1 className={style.h1}>Recently Watched</h1>
             <div className={style.recente}>
-        {filmesAssistidosRecentemente.map((filme, index)=>
+        {filmesSobDemanda.map((filme, index)=>
         <div key={index} className={style.filme}>
             <img src={filme.image} alt={filme.title} />
         </div> )}
@@ -15,4 +15,4 @@ const Recentemente = () => {
         </section>
     )
 }
-export default Recentemente;
+export default Demanda;

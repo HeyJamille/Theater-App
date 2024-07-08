@@ -1,0 +1,23 @@
+.h1 {
+  color: var(--white-color);
+  font-family: var(--font-family);
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 37.5px;
+  margin-bottom: 10px;
+}
+.recente {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.filme {
+  overflow: hidden;
+  flex: 0 0 auto;
+}
+.filme img {
+  width: 164px;
+  height: 242px;
+}
