@@ -5,7 +5,7 @@ import { filmesSobDemanda} from '../../data'
 const Demanda = () => {
     return(
         <section>
-            <h1 className={style.h1}>Recently Watched</h1>
+            <h1 className={style.h1}>Stream On Demand</h1>
             <div className={style.recente}>
         {filmesSobDemanda.map((filme, index)=>
         <div key={index} className={style.filme}>
